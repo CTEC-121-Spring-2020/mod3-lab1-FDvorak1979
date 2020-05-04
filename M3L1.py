@@ -1,8 +1,8 @@
 """
 CTEC 121
-<your name>
-<assignment/lab name>
-<assignment/lab description
+Frank Dvorak
+<Mod 3 Lab 1
+<conditional expressions and if statements
 """
 
 """ IPO template
@@ -71,7 +71,7 @@ def main():
         print(i, outputString)
     print()
     # alphabetize names
-    name = "Bill"
+    name = "Frank"
     firstLetterOfName = "B"
     print("Multi-way if example")
     if firstLetterOfName == "A":
@@ -80,6 +80,10 @@ def main():
         print("B")
     elif firstLetterOfName == "C":
         print("C")
+    elif firstLetterOfName == "D":
+        print("D")
+    elif firstLetterOfName == "F":
+        print("F")
     # ...
     elif firstLetterOfName == "Y":
         print("Y")
